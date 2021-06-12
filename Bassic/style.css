@@ -1,0 +1,52 @@
+*{
+    background-color: rgb(133, 176, 255);
+}
+/* no-style */
+.no-style {  } 
+.no-style div { 
+    padding: 10px; 
+    text-align: center;
+}
+
+/* УПРАВЛЯЮТ САМИМ БЛОКОМ */
+/* display-block */
+.display-block{ 
+    display:block;
+ } 
+.display-block div { 
+    padding: 10px; 
+    text-align: center;
+}
+/* display-inline */
+.display-inline{ 
+    display:inline;
+ } 
+.display-inline div { 
+    padding: 10px; 
+    text-align: center;
+}
+/* display-inline-block */
+.display-inline-block{ 
+    display:inline-block;
+ } 
+.display-inline-block div { 
+    padding: 10px; 
+    text-align: center;
+}
+/* УПРАВЛЯЮТ СОДЕРЖИМЫМ БЛОКА */
+/* display-table */
+.display-table{ 
+    display:table;
+ } 
+.display-table div { 
+    padding: 10px; 
+    text-align: center;
+}
+/* flex displaied */
+.flex-container { 
+    display: flex;
+   } 
+.flex-container div { 
+    padding: 30px; 
+}
+
